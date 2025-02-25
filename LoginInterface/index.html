@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login interface</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+         
+      <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navigation">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICES</a>
+            <a href="#">SKILLS</a>
+            <a href="#">CONTACT</a>
+            <button class="btn-login">Login</button>
+        </nav>
+      </header>
+      <!---------Login layout--------->
+      <div class="wrapper">
+        <span class="close-icon"><a href="#"><i class='bx bx-x' ></i></a></span>
+
+              <div class="form-box login">
+                 <h2>Login</h2>
+                 <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope' ></i></span>
+                        <input type="email" required>
+                        <label >Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt' ></i></span></span>
+                        <input type="password" required>
+                        <label >Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                     <label ><input type="checkbox">Remember me</label>
+                     <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="bnt">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                    </div>
+                 </form>
+              </div>
+<!-----------register section----------->
+            <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-user-check' ></i></span>
+                    <input type="username" required>
+                    <label >username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-envelope' ></i></span>
+                    <input type="email" required>
+                    <label >Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-lock-alt' ></i></span></span>
+                    <input type="password" required>
+                    <label >Password</label>
+                </div>
+                <div class="remember-forgot">
+                <label ><input type="checkbox">I Agree to the Terms and Conditions</label>
+                
+                </div>
+                <button type="submit" class="bnt">Register</button>
+                <div class="login-register">
+                    <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+</div>
+      </div>
+
+
+      
+      <script src="script.js"></script>
+</body>
+</html>
