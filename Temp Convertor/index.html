@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@Collo_2543</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <form>
+    
+    <h1>Temperature conversion</h1>
+    <input type="number" id="mytext" value="0"><br>
+
+    <input type="radio" id="tocelsius" name="rad">
+    <label for="tocelsius"  class="label">Fahrenheit ➡ celsius </label><br>
+
+    <input type="radio" id="tofahrenheit" name="rad">
+    <label for="tofahrenheit" class="label">celsius ➡ Fahrenheit</label><br>
+
+    <button type="button" id="convert" onclick="calculate()">Convert</button>
+    <button type="button" id="reset" onclick="resetForm()">Reset</button>
+
+    
+    <div id="result"></div>
+</form>
+       <script src="script.js"></script>
+</body>
+</html>
