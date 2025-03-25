@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@Collo_2543</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <form  id="currencyForm">
+       <div class="container">
+       <h1>...Currency convertor...</h1>
+       <h3>Select currency to convert</h3>
+        <label for="fromCurrency" id="label">From:</label>
+            <select id="fromCurrency"   >
+                <option value="USD">USD - US Dollar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="GBP">GBP - British Pound</option>
+                <option value="INR">INR - Indian Rupee</option>
+                <option value="KES">KES - Kenyan Shilling</option>
+                <option value="KWD">KWD - Kuwaiti Dinar</option>
+                <option value="TZS">TZS - Tanzanian Shilling</option>
+            </select><br>
+      <label for="toCurrency" id="label">To:</label>
+            <select id="toCurrency"  >
+                <option value="USD">USD - US Dollar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="GBP">GBP - British Pound</option>
+                <option value="INR">INR - Indian Rupee</option>
+                <option value="KES">KES - Kenyan Shilling</option>
+                <option value="KWD">KWD - Kuwaiti Dinar</option>
+                <option value="TZS">TZS - Tanzanian Shilling</option>
+            </select>
+
+       <br><br>
+       <label for="number" id="label">Amount:</label>
+       <input type="number" id="mynumber" value="0"><br>
+       <br>
+       <button  type="button" id="Convert" onclick="Conversition()">Convert</button>
+       <button type="button" id="Reset" onclick="Resetform()">Reset</button>
+
+       <p id="result"></p>
+    </div>
+</form>
+    <script src="script.js"></script>
+</body>
+</html>
