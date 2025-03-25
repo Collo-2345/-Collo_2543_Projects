@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-image: url('/photos/Background.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+#header{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: orangered;
+    font-family: mv boli;
+    font-style: italic;
+}
+#btn{
+    padding: 10px ,20px;
+    font-size: 35px;
+    border: none;
+    background-color: rgb(102, 153, 249);
+    border-radius: 9px;
+    font-weight: bold;
+    font-family: mv boli;
+    font-style: normal;
+    color: hsl(0, 0%, 5%);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+#btn:hover{
+    background-color: hsl(16, 100%, 35%);
+}
+#btn:active{
+    background-color: hsl(219, 92%, 69%);  
+}
+#NumberOfDiceRoll{
+    font-size: 32px;
+    text-align: center;
+    width: 140px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: normal;
+    color: hsl(0, 0%, 5%);
+}
+#label{
+    font-size: 26px;
+    font-weight: bold;
+    color: yellowgreen;
+}
+#outputresult{
+    margin: 24px;
+}
+#imageDice{
+    margin: 6px;
+}
